@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
   end
 hash.each do |name, values|
 values.each do |alpha, beta|
-  data.each do |cgl, values|
+  data.each do |color_gender_lives, values|
     values.each do |value, beta|
 beta.each do |element|
   if element == name && alpha == color_gender_lives
