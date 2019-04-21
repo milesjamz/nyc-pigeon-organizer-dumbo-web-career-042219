@@ -13,5 +13,5 @@ def nyc_pigeon_organizer(data)
 hash.each do |name, values|
 values.each do |alpha, beta|
   data.each do |cgl, values|
-    values.each do |
+    values.each do |value, beta|
 end
