@@ -11,12 +11,12 @@ def nyc_pigeon_organizer(data)
     end
   end
 hash.each do |name, values|
-values.each do |alpha, beta|
+values.each do |hashvalue, beta|
   data.each do |color_gender_lives, values|
     values.each do |value, beta|
 beta.each do |element|
-  if element == name && alpha == color_gender_lives
-    hash[name][alpha] << value.to_s
+  if element == name && hashvalue == color_gender_lives
+    hash[name][hashvalue] << value.to_s
   end
 end
 end
