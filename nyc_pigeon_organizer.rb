@@ -16,5 +16,5 @@ values.each do |alpha, beta|
     values.each do |value, beta|
 beta.each do |element|
   if element == name && alpha == cgl
-    
+    hash 
 end
