@@ -15,5 +15,6 @@ values.each do |alpha, beta|
   data.each do |cgl, values|
     values.each do |value, beta|
 beta.each do |element|
-  if element == name &&
+  if element == name && alpha == cgl
+    
 end
