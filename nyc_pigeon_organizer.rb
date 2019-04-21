@@ -14,5 +14,5 @@ hash.each do |name, values|
 values.each do |alpha, beta|
   data.each do |cgl, values|
     values.each do |value, beta|
-beta.each do 
+beta.each do |element|
 end
