@@ -5,5 +5,5 @@ def nyc_pigeon_organizer(data)
       array.each do |name|
         if hash[name] == NIL
           hash[name] = {}
-          hash[name]
+          hash[name][cgl]
 end
