@@ -43,4 +43,4 @@ end
 end
 end
 end
-hash
+return hash
