@@ -17,7 +17,7 @@ pigeon_data = {
   }
 }
 
-def nyc_pigeon_organizer(data)
+def nyc_pigeon_organizer(pigeon_data)
   new_hash = {}
   data.each do |color_gender_lives, values|
     values.each do |value, array|
