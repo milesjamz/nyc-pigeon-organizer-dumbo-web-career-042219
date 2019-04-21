@@ -17,4 +17,8 @@ values.each do |alpha, beta|
 beta.each do |element|
   if element == name && alpha == cgl
     hash[name][alpha] << value.to_s
+  end
+end
+end
+end
 end
