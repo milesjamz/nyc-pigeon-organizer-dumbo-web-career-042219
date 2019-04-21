@@ -6,4 +6,7 @@ def nyc_pigeon_organizer(data)
         if hash[name] == NIL
           hash[name] = {}
           hash[name][cgl] = []
+        end
+      end
+    end
 end
